@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
-int main()
+void main()
 {
 	char s[500];
 	int count=0,len,i;
