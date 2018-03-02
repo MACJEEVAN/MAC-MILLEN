@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
-int main()
+void main()
 {
     char s[100];
-    int len,count=0,i,w;
+    int len,count=0,i,m;
+    clrscr();
     gets(s);
     len=strlen(s);
     for(i=0;i<len;i++)
@@ -11,7 +13,7 @@ int main()
         if(s[i]==' ')
         count++;   
     }
-    w=count+1;
+    m=count+1;
     printf("%d",w);
-return 0;   
+    getch();   
 }
